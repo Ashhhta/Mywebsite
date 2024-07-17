@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William LaChance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <!-- Hero section with large image -->
+    <div class="hero">
+      <img src="hero-image.jpg" alt="Hero Image">
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <!-- Portfolio section with grid layout -->
+    <div class="portfolio">
+      <!-- Example grid items -->
+      <div class="portfolio-item">
+        <img src="artwork1.jpg" alt="Artwork 1">
+      </div>
+      <div class="portfolio-item">
+        <img src="artwork2.jpg" alt="Artwork 2">
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </section>
+
+  <section id="about">
+    <!-- About section -->
+    <div class="about">
+      <h2>About William LaChance</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor nisi.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <!-- Contact section with form -->
+    <div class="contact">
+      <h2>Contact</h2>
+      <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <!-- Footer content -->
+    <p>&copy; 2024 William LaChance. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
